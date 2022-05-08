@@ -1,0 +1,52 @@
+body{
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+}
+h1{
+    margin-bottom: 50px;
+}
+section{
+    
+    display:flex;
+    margin:0 auto;
+    
+    width:50%;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.color:first-child .color__bg{
+    background-color: tomato;
+}
+.color:nth-child(2) .color__bg{
+    background-color: teal;
+}
+.color:nth-child(3) .color__bg{
+    background-color: Burlywood;
+
+}
+.color:last-child .color__bg{
+    background-color: Thistle;
+}
+.color{
+    
+    margin-bottom: 20px;
+    width:48%;
+    position:relative
+   }
+.color__bg{
+    height:300px;
+    border:5px solid white;
+    
+}
+.color__info{
+    position:absolute;
+    width:100%;
+    background-color: white;
+    top:20px;
+    padding:0 10px;
+    box-sizing: border-box
+    
+}
